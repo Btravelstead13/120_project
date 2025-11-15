@@ -1,0 +1,9 @@
+Start
+	display = “How many miles were driven?”
+	input = milesDriven
+display = “How many gallons total were used?”
+	input = gallonsTotal
+	milesPerGallon = gallonsTotal/milesDriven
+	outsput = milesPerGallon
+	display = milesPerGallon + “ miles per gallon”
+End
